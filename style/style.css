@@ -184,6 +184,10 @@ article {
     align-items: center;
 }
 
+.main-five-screen {
+    align-items: center;
+}
+
 .list > li {
     padding-top: 30px;
     font-weight: 500;
@@ -268,3 +272,6 @@ footer {
     padding-top: 70px;
 }
 
+footer a {
+    font-weight: 500;
+}
