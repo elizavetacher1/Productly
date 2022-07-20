@@ -1,0 +1,270 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    width: 1440px;
+    height: 3709px;
+    color: #544837;
+    justify-content: center;
+    margin: 0 auto;
+    }
+
+.container {
+    width: 1200px;
+    margin: 100px auto;
+    }
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    }
+
+.header {
+    width: 1200px;
+    margin: 0 auto;
+    }
+
+.header-nav {
+    width: 352px;
+    color: #2F281E;
+    margin: 0 auto;
+    }
+
+.btn-group {
+    font-family: 'Montserrat', sans-serif;
+    width: 252px;
+    height: 46px;
+    }       
+
+.btn {
+    background-color: #FF9900;
+    border: none;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 24px;    
+    color: #ffffff;
+    padding: 13px 26px;
+    
+    }
+
+.btn-sign-in {
+    background-color: transparent;
+    color: #2F281E;
+    border: 1px solid #BCD0E5;
+    font-family: 'Montserrat', sans-serif;
+    width: 112px;
+    line-height: 19.5px;
+    }
+
+.btn-sign-up {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 19.5px; 
+    }
+
+
+.header {
+    height: 80px;
+    align-items: center;
+    }
+
+p {
+    line-height: 26px;
+    font-weight: 500;
+    }
+
+.main-first-screen {
+    width: 1200px;
+    height: 495px;
+    }    
+
+h1, h2, h3, h4 {
+    color: #2F281E;
+    font-weight: 700;
+    }
+
+h1  {
+    line-height: 54px;
+    font-size: 44px;
+    padding-bottom: 30px;
+    }
+
+h2 {
+    font-size: 36px;
+    line-height: 43.88px;
+    width: 532px;
+    padding-bottom: 20px;
+    }
+
+.main-second-screen > h2 {
+    text-align: center;
+}
+
+h3 {
+    margin: 30px 0 16px 0;
+    } 
+
+.main-second-screen {
+    flex-direction: column;
+    align-items: center;
+    height: 510px;
+    background-color: #ffffff;
+    background-image: url("../image/background.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    }
+
+.main-third-screen {
+    margin-top: 104px;
+    height: 573px;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;    
+    width: 1200px;
+    height: 175px;
+    }
+
+article {
+    text-align: left;
+    width: 504px;
+    font-weight: 500px;
+}
+    
+.btn-sign-up-now, .btn-get-started {
+    margin-bottom: 74px;
+    margin-top: 28px;
+    width: 180px;
+    height: 50px;
+    padding: 13px 26px;
+    } 
+
+.links {
+    font-weight: 500;
+    line-height: 26px;
+    width: 270px;
+    height: 52px;
+    }
+
+.first-article {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+.Guys {
+    width: 644px;
+    height: 495px;
+    }
+
+.Guy-in-red {
+    width: 562px;
+    height: 573px
+    }
+
+.Guy-in-blue {
+    width: 570px;
+    height: 519px
+}
+
+.Guy-in-yellow {
+    width: 540px;
+    height: 610px
+}
+
+.main-four-screen {
+    margin-top: 100px;
+    align-items: center;
+}
+
+.list > li {
+    padding-top: 30px;
+    font-weight: 500;
+    }
+
+.list > li::before {
+    content: ""; 
+    background-image: url(../image/check.svg);
+    background-repeat: no-repeat;
+    background-position: 0% 26%;
+    display: block;
+    width: 35px;
+    height: 65px;
+    border-radius: 10px;
+    padding-right: 30px;
+    float: left;
+    }
+
+ul {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+    color: #544837;
+    line-height: 26px;
+    font-size: 16px;
+    }
+
+a:link {
+    color: black;
+    text-decoration: none;
+    }
+ 
+a:visited {
+    color: black;
+    text-decoration: none;
+    }
+
+h5 {
+    font-family: 'Gotham Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    }    
+
+::placeholder {
+    color: #BCD0E5;
+    font-weight: 400;
+    }
+    
+.block{
+   height: 209px; 
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   }
+ 
+.QuickLinks, .LegalStuff {
+    width: 135px;
+    }
+
+.sign {
+    width: 340px;
+    }
+
+.phnumber {
+    border: 1px solid #BCD0E5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16;
+    font-weight: 400;
+    line-height: 19.5px;    
+    padding: 15px;
+    width: 340px;  
+    margin-top: 20px;
+    }
+
+.LegalStuff>ul, .quickLinks>ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    }    
+
+footer {
+    padding-top: 70px;
+}
+
